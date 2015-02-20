@@ -13,6 +13,7 @@
 		6F4055C81A24677B00E8649D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F4055C71A24677B00E8649D /* Images.xcassets */; };
 		6F4055CB1A24677B00E8649D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F4055C91A24677B00E8649D /* LaunchScreen.xib */; };
 		6F4055D71A24677B00E8649D /* FunFactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4055D61A24677B00E8649D /* FunFactsTests.swift */; };
+		6F4055E11A246F8900E8649D /* FactBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4055E01A246F8900E8649D /* FactBook.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		6F4055D01A24677B00E8649D /* FunFactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F4055D51A24677B00E8649D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F4055D61A24677B00E8649D /* FunFactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsTests.swift; sourceTree = "<group>"; };
+		6F4055E01A246F8900E8649D /* FactBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactBook.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				6F4055C71A24677B00E8649D /* Images.xcassets */,
 				6F4055C91A24677B00E8649D /* LaunchScreen.xib */,
 				6F4055BE1A24677B00E8649D /* Supporting Files */,
+				6F4055E01A246F8900E8649D /* FactBook.swift */,
 			);
 			path = FunFacts;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F4055E11A246F8900E8649D /* FactBook.swift in Sources */,
 				6F4055C31A24677B00E8649D /* ViewController.swift in Sources */,
 				6F4055C11A24677B00E8649D /* AppDelegate.swift in Sources */,
 			);
